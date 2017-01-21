@@ -1,13 +1,13 @@
 {
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
-  "name": "ncr-sentiment",
+  "name": "nrc-sentiment",
   "description": "AFINN-based sentiment analysis for Node.js",
   "version": "2.1.0",
   "license": "MIT",
-  "homepage": "https://github.com/jeremylind/ncr-sentiment",
+  "homepage": "https://github.com/jeremylind/nrc-sentiment",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeremylind/ncr-sentiment.git"
+    "url": "https://github.com/jeremylind/nrc-sentiment.git"
   },
   "keywords": [
     "sentiment",

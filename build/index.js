@@ -23,7 +23,7 @@ fs.readFile(__dirname + '/ncr-emotion-lexicon.txt', function (err, data) {
     console.log(lines);
     async.forEach(lines, function (obj, callback) {
         var item = obj.split(/\t/);
-        hash[item[0]] = item[1];
+        hash[item[0]] = Number(item[1]);
         callback();
     }, function (err) {
         if (err) throw new Error(err);

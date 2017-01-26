@@ -1,7 +1,7 @@
 ## nrc-sentiment
 #### NRC Word-Emotion Lexicon based sentiment analysis for Node.js
 
-NRC Sentiment is a Node.js module that uses the [NRC Word-Emotion Lexicon](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) wordlist to perform [sentiment analysis](http://en.wikipedia.org/wiki/Sentiment_analysis) on arbitrary blocks of input text. NRC Sentiment provides:
+NRC Sentiment is a Node.js module that uses the [NRC Word-Emotion Lexicon](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) wordlist to perform [sentiment analysis](http://en.wikipedia.org/wiki/Sentiment_analysis) on arbitrary blocks of input text. Based on [Sentiment](https://github.com/thisandagain/sentiment) module by Andrew Sliwinski. NRC Sentiment provides:
 
 - A build process that makes updating sentiment to future versions of the word list trivial
 
